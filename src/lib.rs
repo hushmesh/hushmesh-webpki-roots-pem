@@ -4,7 +4,7 @@
 //!
 //! ```rust
 //! let root_store = rustls::RootCertStore {
-//!   roots: webpki_roots::TLS_SERVER_ROOTS.iter().cloned().collect(),
+//!   roots: hushmesh_webpki_roots_pem::TLS_SERVER_ROOTS.iter().cloned().collect(),
 //! };
 //! ```
 //!
