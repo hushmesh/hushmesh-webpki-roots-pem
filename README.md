@@ -1,13 +1,9 @@
-# webpki-roots
-This is a crate containing Mozilla's root certificates for use with
-the [webpki](https://github.com/rustls/webpki) or
-[rustls](https://github.com/rustls/rustls) crates.
+# hushmesh-webpki-roots-pem
+This is a crate containing Mozilla's root certificates in PEM format.
+This crate is a fork of [webpki-roots](https://github.com/rustls/webpki-roots).
 
 This crate is inspired by [certifi.io](https://certifi.io/en/latest/) and
 uses the data provided by the [Common CA Database (CCADB)](https://www.ccadb.org/).
-
-[![webpki-roots](https://github.com/rustls/webpki-roots/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/rustls/webpki-roots/actions/workflows/build.yml)
-[![Crate](https://img.shields.io/crates/v/webpki-roots.svg)](https://crates.io/crates/webpki-roots)
 
 # License
 The underlying data is MPL-licensed, and `src/lib.rs`
