@@ -1,6 +1,6 @@
 # hushmesh-webpki-roots-pem
 This is a crate containing Mozilla's root certificates in PEM format.
-This crate is a fork of [webpki-roots](https://github.com/rustls/webpki-roots).
+This crate is a derived work of [webpki-roots](https://github.com/rustls/webpki-roots).
 
 This crate is inspired by [certifi.io](https://certifi.io/en/latest/) and
 uses the data provided by the [Common CA Database (CCADB)](https://www.ccadb.org/).
